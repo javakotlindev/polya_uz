@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
+import 'app_widgets.dart';
+
 class BackgroundImageContainer extends StatelessWidget {
   final Widget child;
   final String title;
@@ -16,6 +18,23 @@ class BackgroundImageContainer extends StatelessWidget {
         image: DecorationImage(
           image: AssetImage(title),
           fit: BoxFit.cover,
+        ),
+      ),
+      child: SafeArea(
+        child: Stack(
+          children: [
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                width: double.infinity,
+                height: double.infinity,
+                child: SingleChildScrollView(
+                  physics: BouncingScrollPhysics(),
+                  child: child,
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
