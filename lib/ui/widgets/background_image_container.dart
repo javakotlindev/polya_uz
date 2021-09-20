@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
-import 'app_widgets.dart';
-
 class BackgroundImageContainer extends StatelessWidget {
   final Widget child;
   final String title;
