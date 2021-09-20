@@ -34,7 +34,7 @@ class AppPage extends StatelessWidget {
           buttonBackgroundColor: Colors.blueAccent,
           backgroundColor: Colors.green,
           items: [
-            SvgPicture.asset(
+            Image.asset(
               AppImageUtils.BADGE,
               width: 30,
             ),
@@ -42,7 +42,7 @@ class AppPage extends StatelessWidget {
               AppImageUtils.SOCCER_BALL,
               width: 30,
             ),
-            SvgPicture.asset(
+            Image.asset(
               AppImageUtils.PLACEHOLDER,
               width: 30,
             ),

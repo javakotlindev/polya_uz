@@ -8,8 +8,8 @@ class AppImageUtils{
 
 
 
-  static const String BADGE = "assets/images/badge.svg";
+  static const String BADGE = "assets/images/badge.png";
   static const String SOCCER_BALL = "assets/images/soccer_ball.svg";
-  static const String PLACEHOLDER = "assets/images/placeholder.svg";
+  static const String PLACEHOLDER = "assets/images/placeholder.png";
 
 }
