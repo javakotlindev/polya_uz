@@ -36,15 +36,15 @@ class AppPage extends StatelessWidget {
           items: [
             Image.asset(
               AppImageUtils.BADGE,
-              width: 30,
+              width: 35,
             ),
             SvgPicture.asset(
               AppImageUtils.SOCCER_BALL,
-              width: 30,
+              width: 35,
             ),
             Image.asset(
               AppImageUtils.PLACEHOLDER,
-              width: 30,
+              width: 35,
             ),
           ],
         ),
