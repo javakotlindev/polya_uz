@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:get/get_state_manager/src/simple/get_state.dart';
 import 'package:polya_uz/data/controllers/search_page_controller.dart';
 import 'package:polya_uz/data/utils/app_image_utils.dart';
+import 'package:polya_uz/generated/l10n.dart';
 import 'package:polya_uz/ui/widgets/background_image_container.dart';
 
 class SearchPage extends StatefulWidget {
@@ -45,7 +46,7 @@ class _SearchPageState extends State<SearchPage> {
                         child: TextField(
                           decoration: InputDecoration(
                             border: InputBorder.none,
-                            hintText: "Search",
+                            hintText: S.of(context).search,
                           ),
                           onChanged: (value) {
                             if (value.length > 3) {}
